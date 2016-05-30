@@ -1,0 +1,186 @@
+/*标签样式初始化*/
+			body{margin:0;padding:0;background:#fff;font-size:14px;font-family:Arial,Helvetica,'STHeiti','Microsoft YaHei','sans-serif'}
+			form,ul,li,p,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+			img{border:0;}
+			ul,li{list-style-type:none;}
+			a{color:#00007F;text-decoration:none;}
+			a:hover{text-decoration:none;}
+			
+			
+
+
+			/*TOP栏开始*/
+			/*.all{width: 1000px;height: 5000px;}*/
+			.top{width:960 ;height: 30px;margin:0 auto; margin-right: auto;background: #fafafa;}
+			.topleft{float: left;padding: 5px;}
+			.topword1{font-weight: bold;color: black;}
+			.topword2{color: #b0bec1;border: 1px solid #b0bec1;border-radius: 5px;padding: 2px 5px 2px;margin-left:10px; }
+			.topword2x{color: red;border: 1px solid #b0bec1;border-radius: 5px;padding: 2px 5px 2px; margin-left: 10px;}
+			.topright{float: right;}
+			.topword3div{display: inline-block;color: #b0bec1;border-right: 2px solid #eee;padding: 5px;}
+			.topword2:hover{background: #eee;text-decoration: underline;}
+			.topword2x:hover{background: #eee;text-decoration: underline;}
+			.topword3:hover{background: #eee;text-decoration: underline;}
+			.topword4:hover{background: #eee;text-decoration: underline;}
+
+			/*title栏开始*/
+			.title{width: 960px;height: 100px;margin: 0 auto;}
+			
+			.titleleft{float: left;height: 50px;width: 330px;margin-left: 20px}
+			.titleleftpic{padding-left: 8px;}
+			.titleleftword{float: left;margin-left: 26px;}
+
+			.titlemiddle{display: inline-block;margin-top: 0 auto;}
+			
+			.titleright{float: right;width: 350px;}
+			.titlerightpic{margin-left: 10px;}
+			
+			/*广告栏开始*/
+			.advert{width: 960;height: 130px;background: #eee;border-radius: 10px;margin: 0 auto;}
+			
+			.advertup{width: 500px;float: left;margin-left: 200px;margin-top: -7px;}
+			.adverupin{display: inline-block;border: 1px solid red;border-radius: 5px;width: 80px;height: 22px;text-align: center;margin-left: 5px;padding-top: 5px;color: black;}
+			
+			.advertcenter{width: 960px;height: 65px;background: red;border-radius: 10px;position: absolute;margin-top: 20px;}
+			.adverpic{position: absolute;margin-left: 20px;margin-top: -20px;}
+			.search{position: absolute;width: 400px;margin-left: 200px;margin-top: 15px;border-radius: 5px;}
+			.searchsubmit{background-image: url(img/IMG/5_03.png);background-repeat: no-repeat;width: 75px;position: absolute;margin-left: 620px;margin-top: 15px;border-radius: 50px;}
+			
+			.advertworddiv{float: right;width: 230px;padding-top: 10px;}
+			.advertword{color: #fff;font-size: 11px;}
+			
+			.advertdown{position: absolute;margin-left: 220px;margin-top: 75px;}
+			.acvertdownpic{margin-top: 1px;}
+
+			/*内容栏左侧第一部分开始*/
+			.contentall{width: 960px;height: 2000px;margin: 0 auto;}
+			.contentallleft{float: left;width: 700px;height: 2000px;}
+			.contenttop{width: 700px;height: 415px;margin-top: 10px;}
+			.contenttopleft{width: 340px;height: 410px;;float: left;}
+			.contenttopright{width: 340px;height: 410px;display: inline-block;margin-left: 5px;}
+			
+			.WHATHOT{color: red;font-size: 18px;margin-top: 50px;}
+			.whathotdiv{margin-bottom: 10px;margin-top: 10;}
+			.WHATHOTpic{margin-left:20px;position: absolute;}
+			
+			.hotdiv{margin-top: 10px}
+			.hot{float: left;}
+			.hotword1{margin-top: 3px;margin-left: 10px;color: black;}
+			.hotword2{margin-top: 24px;margin-left: 10px;color: black;}
+			.hotword3{margin-top: 45px;margin-left: 3px;color: black;}
+
+			.hotshopdiv{width: 160px;height: 25px;float: left;padding-top: 10px;text-align: center;margin-bottom: 30px;overflow: hidden;}
+			.ewshopdiv{width: 160px;height: 25px;float: right;padding-top: 10px;text-align: center;margin-bottom: 30px;overflow: hidden;}
+			
+			.hoteldiv{height: 105px;width: 360;}
+			.hotelpic1{float: left;}
+			.hotelword1{display: inline-block;margin-left: 20px;margin-bottom: 5px;}
+			.hotelword2{display: inline-block;margin-left: 20px;width: 120px;}
+			.htolepic2{position: absolute;margin-top: -55px;margin-left: 30px;}
+			.hotelbottom{width: 340px;height: 30px;}
+			.hotelbottompic{float: right;margin-right:10px; }
+
+			/*内容栏左侧第二部分开始*/
+			.contentcenter{width: 700px;height: 430;margin-left: 0px;}
+			.contentcenterleft{width: 340;height: 430px;float: left;}
+			
+			.luckydaydiv{margin-top: 20px;margin-left: 20px;margin-bottom: 10px;overflow: hidden;}
+			.luckdayword1{font-size: 25px;}
+			.luckdayword2{font-size: 32px;}
+			.luckdayword3{width: 20px;height: 20px;background: #eee;float: left;display: block;font-weight: bolder;padding-left: 5px;}
+			
+			.todaydiv1{overflow: hidden;margin-bottom: 5px;border-top: 1px solid #eee;margin-right: 10px;padding-top: 3px;}
+			.todaydiv2{width: 310px;height: 50px;color: #ccc;}
+
+			.datetitle{padding: 20px;}
+			.date{width: 35px;height: 35px;background: #eee;}
+			.datediv{margin-top: 15px;margin-left: 20px}
+
+
+			.contentcenterright{width: 340;height: 430px;background: ;float: right;margin-right: 10px;}
+			
+			.recommene{margin-top: 20px;margin-left: 20px;margin-bottom: 10px;overflow: hidden;}
+			.recommdneword{vertical-align: top;font-size: 50px;color: #eee;}
+			.recommdnediv{margin-top: 5px;background: #eee;}
+			.recommdnediv1{width: 240px;height: 120px;float: left;background: #eee;}
+			.recommdnepic{width: 240px;height: 120px;}
+			.recommenepic1{margin: 5px;}
+			.recommenepicword1{margin-top: 5px;padding-bottom: 5px;font-weight: bolder;;}
+			
+			.oldshopdiv{margin-top: 10px;}
+			.oldshopword{float: right;}
+
+			/*内容栏左侧第三部分开始*/
+			.contentcenter2{width: 760px;height: 350px;/}
+			.contentcentersubway{width: 340px;height: 340px;display: inline-block;margin-top: 8px;float: left;}
+			.subwayleftdiv{width: 168px;height: 25px;float: left;padding-top: 10px;text-align: center;margin-bottom: 30px;overflow: hidden;}
+			.subwayrightdiv{width: 168px;height: 25px;float: right;padding-top: 10px;text-align: center;margin-bottom: 30px;overflow: hidden;}
+			.subwaydiv2{height: 260px;}
+			.subwaynumber1{display: inline-block;width: 50px;height: 17px;background: #eee;text-align: center;padding-top: 3px;border-radius: 5px;border: 2px solid red;margin-left: 5px;}
+			.subwaynumber2{display: inline-block;width: 50px;height: 17px;background: #eee;text-align: center;padding-top: 3px;border-radius: 5px;border: 2px solid blue;}
+			.subwaynumber3{display: inline-block;width: 50px;height: 17px;background: #eee;text-align: center;padding-top: 3px;border-radius: 5px;background: orange;color: #fff;border: 2px solid orange;}
+
+			.contentcenterbbs{width: 340px;height: 340px;float: left;margin-top: 8px}
+			.bbsdiv{width: 340px;height: 50px;}
+			.bbsword1{display: inline-block;color: black;line-height: 40px;margin-left: 20px;font-weight: bolder;}
+			.bbsword2{display: inline-block;margin-left: 5px;}
+			.bbspic{margin-top: 15px;margin-right: 10px;float: right;}
+
+			.bbsdiv2{width: 320px; height: 30px;background: red;margin:10px 10px;background: #eee;border-radius: 5px;}
+			.bbsword3{color: black;display: inline-block;line-height: 30px;margin-left: 10px;}
+			.bbsword4{display: inline-block; font-size: 13px;margin-left: 20px;color: black;}
+			.bbsword5{display: inline-block;font-size: 13px; margin-left: 35px;color: black;}
+			.bbsdiv2:hover{background: #ea2b31;color: black;text-decoration:underline }
+
+			/*内容栏左侧第四部分开始*/
+			.contentbottomall{width: 755px;height: 2000px;}
+			
+			.advicediv{width: 330px;height: 300px;float: left;margin-top: 8px;padding-left: 10px;}
+			.advicetop{width: 90px;height: 20px;float: left;text-align: center;padding-top: 3px;}
+			.advicediv2{width: 300px;height: 25px;padding-top: 5px;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;}
+			
+			.advicediv3{width: 300px;height: 25px;padding-top: 5px;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;}
+
+			.helpdiv{width: 330px;height: 240px;float: left;margin-top: 8px;padding-left: 10px;}
+			.heloword{font-size: 5px;font-weight: bolder;}
+			.helpcontent{width: 310px;height: 45px;text-indent: 25px;margin-top: 15px;border-bottom: 1px solid #ccc;}
+			
+			.mediadiv{width: 330px;height: 240px;float: left;margin-top: 8px;padding-left: 10px;}
+			.mediadiv1{margin: 18px 15px;}
+
+			/*内容栏右侧开始*/
+			.contentrightall{float:right;width:260px;height:1980px;}
+			.loaddiv{margin-top: 10px;height: 130px}
+			.land{border-radius: 15px;background: red;color: #fff;width: 55px;height:25px;}
+			.loadword{margin: 10px 40px 10px;border-top: 1px solid #eee;padding-top:5px; }
+
+			.contentrightpic{margin-left: 10px;margin-bottom: 20px;}
+
+			.couponsword{width: 70px;height: 20px;float: left;text-align: center;padding-top: 3px;margin-top: 10px;}
+			.conponsword1{width: 215px;height: 25px;padding-top: 5px;border-top: 1px solid #ccc;border-bottom: 1px dotted #ccc;color: #eee;}
+			.conponsword1x{width: 215px;height: 25px;padding-top: 5px;border-top: 1px solid #ccc;border-bottom: 1px dotted #ccc;color: black; padding-left: 10px}
+			.conponsword2{float: right;padding-right: 10px;}
+			.conponsword3{float:right;padding-right:10px;}
+			
+			.todayshop{margin-top: -5px;}
+			.todayshopin{border-bottom: 1px dotted #eee;height: 80px;}
+			.todayshoppic{border: 1px solid #eee;float: left;margin-top: 5px;}
+
+			.360shopdiv{width: 260px;height: 182px;border:1px solid #eee;}
+
+			/*页脚样式开始*/
+			.footerall{width: 1050px;height: 80px; margin-top: 20px;}
+			.footerindiv{margin: 0 auto;width: 525px;height: 25px;}
+			.footerword{border-right: 1px solid black;display: inline-block;padding-right: 5px;}
+			.footerwordx{display: inline-block;padding-right: 5px;}
+			.footerword1{margin: 0 auto;width: 465px;height: 25px;font-size: 13px;}
+
+			/*共用标签*/
+			tr{text-align: center;}
+			.bordereee{border: 1px solid #eee;border-radius: 5px;}
+			.positionab{position: absolute;}
+			.redword{color: red;}
+			.grayword{color:#eee;}
+			.blackword{color: black;}
+			.ipadpic{width: 690px;margin-top: 10px;margin-bottom: 10px;}
+			.ipadpic2{width: 690px;margin-top: 10px;margin-bottom: 10px;}
